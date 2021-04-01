@@ -1,0 +1,2 @@
+node_modules/
+transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100
