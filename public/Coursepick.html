@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="/path/to/tailwind.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Document</title>
+</head>
+
+<body class="pb-8">
+    <header class="md:pb-5 md:border-b-2 md:border-purple-500 md:shadow-lg">
+        <nav>
+            <ul class="flex flex-row justify-between mt-2 ml-2 mr-2 text-sm ">
+                <div class="hidden md:flex">
+                    <li class="lg:ml-14">
+                        <img src="img/Qhub logo.jpg" alt="" class="w-24">
+                    </li>
+                </div>
+                <div class="flex flex-row pt-2 pb-2 pl-4 pr-4 space-x-3 border rounded-full shadow-lg lg:mr-80 lg:spaxe-x-20 md:space-x-16 md:mr-40 md:rounded-none md:shadow-none md:border-none">
+                    <li>
+                        <a href="" class="font-normal transition duration-1000 ease-in-out transform border-b-2 focus:outline-none hover:border-b-2 hover:border-purple-500 hover:text-blue-500 hover:-translate-y-0 hover:scale-100">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="" class="font-normal transition duration-1000 ease-in-out transform border-b-2 focus:outline-none hover:border-b-2 hover:border-purple-500 hover:text-blue-500 hover:-translate-y-0 hover:scale-100">My Exams</a>
+                    </li>
+                    <li>
+                        <a href="" class="font-normal transition duration-1000 ease-in-out transform border-b-2 focus:outline-none hover:border-b-2 hover:border-purple-500 hover:text-blue-500 hover:-translate-y-0 hover:scale-100">Browse</a>
+                    </li>
+                </div>
+                <div>
+                    <li class="flex flex-row pt-2 pb-2 pl-3 pr-3 space-x-3 border rounded-lg shadow-lg lg:mr-12 md:rounded-none md:shadow-none md:border-none">
+                        <img src="img/ic_face_24px.jpg" alt="" class="w-4 pt-1 md:w-6 md:pt-0">
+                        <a href="" class="font-normal transition duration-1000 ease-in-out transform border-b-2 focus:outline-none hover:border-b-2 hover:border-purple-500 hover:text-blue-500 hover:-translate-y-0 hover:scale-100">Zoe Saldana</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex flex-row pt-4 pb-4 pl-6 space-x-3 space-y-2 border-b-2 border-purple-500 shadow-lg lg:pl-16 md:pl-2">
+        <div class="mt-3 lg:mt-2">
+            <img src="img/Group 170.jpg" alt="" class="w-8 h-10 lg:w-14 lg:h-16">
+        </div>
+        <div class="space-y-1">
+            <h2 class="font-serif text-base lg:text-lg">Search for a university program</h2>
+            <p class="text-sm font-normal">Find hundreds of programs from top universities</p>
+        </div>
+    </section>
+    <main class="ml-5 mt-7 lg:flex lg:justify-center lg:space-x-2 lg:mt-16 lg:ml-2">
+        <div class="md:flex md:justify-center md:space-x-8 lg:space-x-2">
+            <div>
+                <p>
+                    <input class="pl-1 text-sm border-b-4 border-separate border-purple-600 rounded-md shadow-md outline-none pr-36 lg:pr-20" placeholder="search any keyword"></input>
+                </p>
+            </div>
+            <div class="mt-5 md:mt-0">
+                <p>
+                    <select class="pl-2 text-sm text-opacity-100 border-b-4 border-separate border-purple-600 rounded-md shadow-md outline-none">
+                    <option value="All Departments ">All Departments</option>
+                        <option value="BENJAMIN CARSON SCHOOL OF MEDICINE ">BENJAMIN CARSON SCHOOL OF MEDICINE</option>
+                        <option value="COMPUTING AND ENGINEERING SCIENCES ">COMPUTING AND ENGINEERING SCIENCES</option>
+                        <option value="MANAGEMENT SCIENCES ">MANAGEMENT SCIENCES</option>
+                        <option value="LAW AND SECURITY STUDIES ">LAW AND SECURITY STUDIES</option>
+                        <option value="SCHOOL OF NURSING SCIENCES ">SCHOOL OF NURSING SCIENCES</option>
+                </select>
+                </p>
+            </div>
+        </div>
+        <div class="md:flex md:space-x-8 lg:space-x-2 md:justify-center md:mt-4 lg:mt-0">
+            <div class="mt-5 md:mt-0">
+                <p>
+                    <select class="pl-1 pr-24 text-sm text-opacity-100 border-b-4 border-separate border-purple-600 rounded-md shadow-md outline-none lg:pr-9">
+                    <option value="All Programs ">All Programs</option>
+                    <optgroup label="COMPUTING AND ENGINEERING SCIENCES ">
+                        <option>COMPUTER SCIENCE</option>
+                        <option>SOFTWARE ENGINEERING</option>
+                        <option>COMPUTER TECHNOLOGY</option>
+                    </optgroup>
+                    <optgroup label="BENJAMIN CARSON SCHOOL OF MEDICINE ">
+                        <option>MEDICINE</option>
+                        <option>ANATOMY</option>
+                        <option>BIOCHEMISTRY</option>
+                    </optgroup>
+                </select>
+                </p>
+            </div>
+            <div class="flex flex-row mt-5 space-x-5 md:mt-0">
+                <div>
+                    <p>
+                        <select class="pl-2 pr-32 text-sm text-opacity-100 border-b-4 border-separate border-purple-600 rounded-md shadow-md outline-none lg:pr-8">
+                            <option value="All Levels ">All Levels</option>
+                             <option value="100 ">100</option>
+                             <option value="200 ">200</option>
+                             <option value="300 ">300</option>
+                             <option value="400 ">400</option>
+                        </select>
+                    </p>
+                </div>
+                <div>
+                    <button class="pt-1 pb-1 pl-4 pr-4 text-sm text-white transition duration-1000 ease-in-out transform bg-blue-500 border rounded-full shadow-lg focus:outline-none hover:-translate-y-1 hover:scale-100">Filter</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <article class="ml-5 mr-5 mt-7 md:ml-1 md:mr-1 lg:ml-1 lg:mr-1">
+        <div class="flex justify-center">
+            <div class="grid grid-cols-2 grid-rows-6 gap-7 md:grid-cols-4 md:grid-rows-3 lg:grid-cols-4 lg:grid-rows-3 lg:gap-14">
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Bachelor Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ACC 221</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Introduction to Financial <br> Accounting I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ACC 212</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Cost Accounting I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ACC 221</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Introduction to Financial <br> Accounting III</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ACC 212</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Cost Accounting I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Bachelor Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">BIO 101</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">General Biology I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">BIO 102</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">General Biology II</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ENG 112</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Basic English Grammar <br> and Composition</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">ENG 121</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Intro to English <br> Language</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Bachelor Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">HMD 111</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Fundamentals of Human <br> Development I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Bachelor Of Sc</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">HMD 111</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Fundamentals of Human <br> Development I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">MAC 111</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Introduction to Mass <br> Communication I</a>
+                        </div>
+                    </div>
+                </form>
+                <form class="pt-3 pb-3 pl-2 border-none rounded-lg shadow-md">
+                    <div class="flex flex-col space-y-3">
+                        <div class="pt-1 pb-1 pl-3 pr-3 ml-3 mr-16 border rounded-md shadow-md">
+                            <h1 class="font-serif text-sm font-normal tracking-wide">Master Of BA</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h2 class="text-sm font-medium text-blue-600">MAC 112</h2>
+                            <a href="" class="text-sm font-normal text-gray-500 hover:text-blue-600 hover:underline">Writing for the <br> Mass Media I</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </article>
+    <section class="mt-10">
+        <div class="flex justify-center space-x-4 ">
+            <div class="transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100 ">
+                <a href="#" class="pt-2 pb-2 pl-3 pr-3 transition duration-1000 ease-in-out transform border-2 border-purple-600 rounded-md bover:border-transparent focus:outline-none hover:bg-blue-500 hover:border-purple-600 hover:text-white hover:-translate-y-1 hover:scale-100 ">1</a>
+            </div>
+            <div class="transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100 ">
+                <a href="#" class="pt-2 pb-2 pl-3 pr-3 transition duration-1000 ease-in-out transform border-2 border-purple-600 rounded-md bover:border-transparent focus:outline-none hover:bg-blue-500 hover:border-purple-600 hover:text-white hover:-translate-y-1 hover:scale-100 ">2</a>
+            </div>
+            <div class="transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100 ">
+                <a href="#" class="pt-2 pb-2 pl-3 pr-3 transition duration-1000 ease-in-out transform border-2 border-purple-600 rounded-md bover:border-transparent focus:outline-none hover:bg-blue-500 hover:border-purple-600 hover:text-white hover:-translate-y-1 hover:scale-100 ">3</a>
+            </div>
+            <div class="transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100 ">
+                <a href="#" class="pt-2 pb-2 pl-3 pr-3 transition duration-1000 ease-in-out transform border-2 border-purple-600 rounded-md bover:border-transparent focus:outline-none hover:bg-blue-500 hover:border-purple-600 hover:text-white hover:-translate-y-1 hover:scale-100 ">4</a>
+            </div>
+            <div class="transition duration-1000 ease-in-out transform hover:-translate-y-1 hover:scale-100 ">
+                <a href="#" class="pt-2 pb-2 pl-3 pr-3 transition duration-1000 ease-in-out transform border-2 border-purple-600 rounded-md bover:border-transparent focus:outline-none hover:bg-blue-500 hover:border-purple-600 hover:text-white hover:-translate-y-1 hover:scale-100 ">5</a>
+            </div>
+        </div>
+        <div class="mt-5 ">
+            <p class="text-sm tracking-wide text-center text-gray-500 ">Showing 1- 12 of 50 programs</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
